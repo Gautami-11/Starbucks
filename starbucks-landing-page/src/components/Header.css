@@ -1,0 +1,123 @@
+
+  
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  header .left-side a img{
+    width: 80px;
+  }
+  
+  header .right-side{
+    display: flex;
+  }
+  
+  header .right-side .nav-link-wrapper a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  header .left-side a img{
+    width: 80px;
+  }
+
+  header .right-side{
+    display: flex;
+  }
+
+  header .right-side .nav-link-wrapper a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  @media only screen and (max-width: 650px){
+    header{
+      display: block;
+    }
+  
+    header .left-side a img{
+      width: 80px;
+      margin: auto;
+      display: block;
+    }
+  
+    header .right-side{
+      display: flex;
+      justify-content: center;
+      margin-top: 35px;
+    }
+  
+    header .right-side .nav-link-wrapper a{
+      padding: 10px;
+      margin: 10px;
+      text-decoration: none;
+      color: black;
+    }
+}
+
+@media (min-width: 1140px){
+    
+  
+    header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    header .left-side a img{
+      width: 80px;
+    }
+  
+    header .right-side{
+      display: flex;
+    }
+  
+    header .right-side .nav-link-wrapper a{
+      padding: 10px;
+      margin: 10px;
+      text-decoration: none;
+      color: black;
+    }
+}  
+  @media only screen and (max-width: 404px){
+    header{
+      display: block;
+    }
+  
+    header .left-side a img{
+      width: 80px;
+      margin: auto;
+      display: block;
+    }
+  
+    header .right-side{
+      display: flex;
+      justify-content: center;
+      margin-top: 35px;
+    }
+  
+    header .right-side .nav-link-wrapper a{
+      padding: 5px;
+      margin: 5px;
+      text-decoration: none;
+      color: black;
+    }
+}
